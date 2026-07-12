@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agent-human-in-the-loop-router-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Stream low confidence queries to human validator workflows.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "human-in-the-loop",
+    "routing"
+  ],
+  "inputs": {
+    "confidence_score": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "route_target": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
